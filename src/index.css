@@ -12,12 +12,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   background: rgb(231, 231, 231);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  
 }
 
 button,
@@ -110,4 +112,13 @@ header button {
   justify-self: end;
   color: var(--font-color-light);
   font-size: 0.8em;
+}
+.App-dark{
+  background-color: #333;
+  color: #fff;
+}
+
+.App-light{
+  background-color: #fff;
+  color: #333;
 }
